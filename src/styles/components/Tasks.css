@@ -1,0 +1,63 @@
+.taskBody {
+    background-color: black;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.taskNumber,.deleteTask{
+    width: 50px;
+    height: 50px;
+}
+
+.taskNumber {
+    background-color: #4a57ff;
+    border: 1px solid #1f00f7;
+    border-radius: 2px;
+}
+
+.description{
+    width: 50%;
+}
+
+.done {
+    background-color: #30f78c;
+    border: 1px solid #30f78c;
+    border-radius: 5px;
+    width: 20%;
+    padding: 5px;
+}
+
+.inProcess {
+    background-color: #f7ed69;
+    color: black;
+    border: 1px solid #f7ed69;
+    border-radius: 5px;
+    width: 20%;
+    padding: 5px;
+}
+
+.undone{
+    background-color: #ff4f5a;
+    border: 1px solid #ff4f5a;
+    border-radius: 5px;
+    width: 20%;
+    padding: 5px;
+}
+
+.deleteTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #ff4f5a;
+    border: 1px solid #ff4f5a;
+    padding: 5px;
+    border-radius: 100%;
+}

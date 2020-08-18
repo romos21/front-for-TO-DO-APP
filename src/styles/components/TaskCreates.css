@@ -1,0 +1,47 @@
+
+
+.taskCreatesBody {
+    margin: 100px auto;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.description{
+    width: 50%;
+}
+
+.status{
+    border: 1px solid #30f78c;
+    width: 20%;
+    background:linear-gradient(#ff4f5a,#f7ed69,#30f78c);
+    color: black;
+    cursor: pointer;
+}
+
+.addTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #30f78c;
+    border: 1px solid #30f78c;
+    padding: 5px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.addTask:hover{
+    background-color: #05c300;
+    font-size: 100px;
+    width: 75px;
+    height: 75px;
+    transition: 2s ease-out;
+}

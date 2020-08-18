@@ -1,0 +1,18 @@
+
+.appLinks{
+  margin: 40px auto;
+  color: white;
+  padding: 20px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 20px;
+  width: 60%;
+}
+
+.appLinks:hover{
+  transition: all 2s ease;
+  opacity: 1;
+}
+
+
+

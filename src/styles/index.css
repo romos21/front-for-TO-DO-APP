@@ -1,0 +1,17 @@
+body {
+  margin: 0 auto;
+  font-family: cursive, sans-serif;;
+  font-weight: bold;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a,button{
+  outline: none;
+  text-decoration: none;
+}
+
+

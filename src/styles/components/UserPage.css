@@ -1,0 +1,82 @@
+.mainFieldInfo{
+    margin: 20px auto;
+    color: black;
+    width: 70%;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.taskLink{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.taskLink:hover{
+    transition: all 1s ease-in-out;
+    background-color: #4a57ff;
+    width: 100%;
+    border: 5px solid #1f00f7;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.newInput{
+    background-color: #80f7ae;
+}
+
+.taskLink:hover label{
+    padding-left: 10px;
+    width: 10%;
+}
+
+input{
+    padding: 0 15px;
+    margin: 40px auto;
+    text-align: left;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    outline: none;
+    width: 70%;
+}
+
+label{
+    margin: 0;
+    width: 20%;
+}
+
+.displayNoneBlock{
+    display: none;
+}
+
+.save{
+    display: flex;
+    justify-content: center;
+}
+
+.saveButton{
+    width: 70%;
+    font-weight: bold;
+}
+
+.saveButton:hover{
+    background-color: #ffffff;
+    border: 10px solid #4a57ff;
+    color: #4a57ff;
+    transition: all 2s ease;
+    opacity: 1;
+}
+
+.userPageActions{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.blue{
+    border: 1px solid #4a57ff;
+    background-color: #4a57ff;
+}
+

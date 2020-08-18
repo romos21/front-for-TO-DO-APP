@@ -1,0 +1,49 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: cursive, sans-serif;
+}
+
+.userPageActions{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.red{
+    border: 1px solid #ff4f5a;
+    background-color: #ff4f5a;
+}
+
+.green{
+    border: 1px solid #30f78c;
+    background-color: #30f78c;
+}
+
+.blue{
+    border: 1px solid #4a57ff;
+    background-color: #4a57ff;
+}
+
+.backgroundFixed, .backgroundImg{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.backgroundFixed{
+    background: black;
+    opacity: 0.5;
+    z-index: -9998;
+}
+
+.backgroundImg{
+    background-image: url("https://www.theladders.com/wp-content/uploads/to-do-list-190702.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    z-index: -9999;
+}
